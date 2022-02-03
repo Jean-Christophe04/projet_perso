@@ -27,6 +27,8 @@ def caractere_mot():
         if car == cherche:
             print(i)
 
+# caractere_mot()
+
 def lettre_pas_mot():
     mot = "evaluation"
     recherche = input()
@@ -34,6 +36,5 @@ def lettre_pas_mot():
         print("ta mere la pute")
     else :
         print("good JOB")
-# caractere_mot()
 
 lettre_pas_mot()
