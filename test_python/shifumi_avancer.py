@@ -72,13 +72,15 @@ def vainqueur_avancer(tour):
 
     if(compteur_1 < compteur_2):
         print("VICTOIRE DU JOUEUR 2 BRAVO")
-    print ("VICTOIRE DU JOUEUR 1 BRAVO")
+    else:
+        print ("VICTOIRE DU JOUEUR 1 BRAVO")
     
-        
-print("choisisez le noombre de manche")
-a = input()
-a = int(a)
-print("la partie vas commencer attention a ne pas vous trompe dans l ecriture des mots")
-print("vos different choix sont:  pierre  papier  et ciseaux")
-vainqueur_avancer(a)       
-        
+def main():    
+    print("choisisez le noombre de manche")
+    a = input()
+    a = int(a)
+    print("la partie vas commencer attention a ne pas vous trompe dans l ecriture des mots")
+    print("vos different choix sont:  pierre  papier  et ciseaux")
+    vainqueur_avancer(a)       
+
+main() 
