@@ -128,6 +128,9 @@ def evaluation_mot():
     tab = ["_" for _ in range(taile_valeur)]
     tab_erreur = []
     i = 0
+
+    for i in range(10):
+        print("\n")
     
     while i < taile_valeur:
         print(" "+tab[i], end=" ")
@@ -151,10 +154,10 @@ def evaluation_mot():
                 j += 1
             print("\n")
         if compteur_vie == 0:
-            print("vous avez perdu le mot que vou cherchié etait "+valeur+"\n")
+            print("vous avez perdu le mot que vous cherchez etait "+valeur+"\n")
             break
         if nombre_restant(taile_valeur,tab) == 2:
-            print("vous avez trouvez toute les lettre bravo \n")
+            print("vous avez trouvé toutes les lettres bravo \n")
             print(valeur)
             break 
 
